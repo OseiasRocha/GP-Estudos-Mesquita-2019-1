@@ -18,7 +18,6 @@ while True:
         newset = [pergunta]
         pergunta = input("O que eu deveria responder? ")
         newset.append(pergunta)
-        newset = null
         bot.train(newset)
 
 
