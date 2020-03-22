@@ -3,7 +3,8 @@ from chatterbot import ChatBot
 
 chatbot = ChatBot('TW Chat Bot')
 
-conversa = ['Oi', 'Ola', 'Tudo bem?', 'Tudo otimo', 'Voce gosta de programar?', 'Sim, eu programo em Python']
+conversa = ['Oi', 'Ola', 'Tudo bem?', 'Tudo otimo',
+            'Voce gosta de programar?', 'Sim, eu programo em Python']
 
 bot = ListTrainer(chatbot)
 bot.train(conversa)
@@ -19,6 +20,3 @@ while True:
         pergunta = input("O que eu deveria responder? ")
         newset.append(pergunta)
         bot.train(newset)
-
-
-# Dummy
