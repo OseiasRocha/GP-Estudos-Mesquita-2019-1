@@ -1,16 +1,15 @@
-from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 
-chatbot = ChatBot('TW Chat Bot')
-
+bot = ChatBot('TW Chat Bot')
 conversa = ['Oi', 'Ola', 'Tudo bem?', 'Tudo otimo', 'Voce gosta de programar?', 'Sim, eu programo em Python']
 
-bot = ListTrainer(chatbot)
-bot.train(conversa)
+trainer = ListTrainer(bot)
+trainer.train(conversa)
 
 while True:
     pergunta = input("Usuário: ")
-    resposta = chatbot.get_response(pergunta)
+    resposta = bot.get_response(pergunta)
     if float(resposta.confidence) > 0.5:
         print('TW Bot: ', resposta)
     else:
