@@ -15,3 +15,5 @@ while True:
         print('TW Bot: ', resposta)
     else:
         print('TW Bot: Ainda não sei responder esta pergunta')
+
+# Dummy
