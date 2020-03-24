@@ -8,7 +8,9 @@ Repositório com foco no aprimoramento de conhecimentos da turma do Curso Técni
 
 1. Instale o interpretador **Python** na versão **3.8** no seu computador. Abaixo um vídeo explicativo de como fazê-lo em Windows e Linux.
 
-    [Placeholder para link com vídeo no Youtube](https://www.youtube.com/)
+    [Instalando Pyhton 3.8 no Linux](https://www.youtube.com/watch?v=PdYem3Pkni8)
+    
+    [Instalando Pyhton 3.8 no Windows](https://www.youtube.com/watch?v=0MFz6kHGiGg)
 
 2. Após a instalação rode o seguinte comando para instalar todas as bibliotecas utilizadas no projeto.
 
