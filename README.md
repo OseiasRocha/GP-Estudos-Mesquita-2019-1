@@ -6,7 +6,7 @@ Repositório com foco no aprimoramento de conhecimentos da turma do Curso Técni
 
 ## Configurando o ambiente
 
-1. Instale o interpretador **Python** na versão **3.8.2** no seu computador. Abaixo um vídeo explicativo de como fazê-lo em Windows e Linux.
+1. Instale o interpretador **Python** na versão **3.8** no seu computador. Abaixo um vídeo explicativo de como fazê-lo em Windows e Linux.
 
     [Placeholder para link com vídeo no Youtube](https://www.youtube.com/)
 
